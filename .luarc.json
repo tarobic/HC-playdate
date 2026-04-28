@@ -1,0 +1,38 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "diagnostics.disable": [
+        "need-check-nil",
+        "duplicate-set-field",
+        "unused-local"
+    ],
+    "diagnostics.globals": [
+        "import",
+        "vim"
+    ],
+    "diagnostics.severity": {
+        "duplicate-set-field": "Hint"
+    },
+    "runtime.builtin": {
+        "io": "disable",
+        "os": "disable",
+        "package": "disable"
+    },
+    "runtime.nonstandardSymbol": [
+        "+=",
+        "-=",
+        "*=",
+        "/=",
+        "//=",
+        "%=",
+        "<<=",
+        ">>=",
+        "&=",
+        "|=",
+        "^="
+    ],
+    "runtime.version": "Lua 5.4",
+    "workspace.preloadFileSize": 1000,
+    "workspace.library": [
+        "/home/tarobic/gamedev/playdate/playdate-luacats"
+    ]
+}
