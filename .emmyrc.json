@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/EmmyLuaLs/emmylua-analyzer-rust/refs/heads/main/crates/emmylua_code_analysis/resources/schema.json",
+	"diagnostics": {
+		"disable": [
+			"need-check-nil",
+			"call-non-callable",
+			"param-type-mismatch"
+		],
+		"enable": true,
+		"enables": [],
+		"globals": [],
+		"globalsRegex": [],
+		"severity": {}
+	},
+	"runtime": {
+		"version": "LuaJIT"
+	},
+	"workspace": {
+		"library": [
+			"~/coding/lua/libraries/LLS-Addons/love2d/library/"
+		],
+		"workspaceRoots": [
+			"."
+		]
+	}
+}
